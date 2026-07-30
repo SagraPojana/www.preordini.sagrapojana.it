@@ -1,0 +1,4 @@
+# Configurazione del sync (salvata dalla finestra).
+gestionale = http://localhost:9020
+upload_url = https://www.sagralozzo.it/test/api/offline-data.php
+api_key = 
