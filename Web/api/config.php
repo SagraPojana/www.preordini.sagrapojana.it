@@ -7,7 +7,7 @@
 // Chiave segreta per l'upload REMOTO di offline-data.json via API REST
 // (header x-api-key). NON è la password del pannello admin: quella la
 // imposti al primo accesso e viene salvata in data/admin.json.
-$API_KEY = 'CAMBIA-QUESTA-CHIAVE';
+$API_KEY = 'SanLorenzo26!';
 
 // Origini ammesse per le chiamate dal sito statico (CORS).
 //  '*'                       = qualsiasi origine (più semplice)
