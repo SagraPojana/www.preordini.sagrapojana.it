@@ -1,0 +1,111 @@
+table {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 95%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 40px;
+  background: #FFED86;
+  font-size: 16px;
+}
+table tbody tr {
+  height: 35px;
+  border-bottom: 1px solid #E3F1D5;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    display: block;
+  }
+  table > *, table tr, table td, table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+  table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 12px;
+  }
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+  }
+}
+body {
+  background: #9BC86A;
+  font: 400 14px 'Calibri','Arial';
+  padding: 20px;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+}
+
+.hiddenBlock{
+  font-size: 25px;
+  position:absolute;
+  top:0;
+  left:0;
+  margin:auto;
+  color:white;
+  display:none;
+  width:100%;
+  margin:0;
+  padding:0;
+  text-align:center;
+  color:white;
+  text-shadow: 0 1px 1px #f00;
+  background:#f55;
+  box-shadow: 0 6px 6px -6px black;
+  transition: all 0.5s ease-in;
+}
+
+.hiddenBlock p{
+  margin-top:14px;
+  margin-bottom: 14px;
+}
+
+.toogled{
+  display: block;
+  transition: all .5s ease-in;
+  z-index: 101;
+}
