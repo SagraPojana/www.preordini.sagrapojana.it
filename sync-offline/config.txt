@@ -1,4 +1,4 @@
 # Configurazione del sync (salvata dalla finestra).
 gestionale = http://localhost:9020
 upload_url = https://www.sagrapojana.it/test/api/offline-data.php
-api_key = 
+api_key = SanLorenzo26!
